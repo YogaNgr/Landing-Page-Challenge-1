@@ -15,6 +15,16 @@
   background-color: #0d28a6;
 }
 
+.navbar-nav {
+  margin-left: 50%;
+}
+
+.navbar .btn-success {
+  position: absolute;
+  left: 83%;
+  top: 13%;
+}
+
 .judul-hero {
   margin-top: 100px;
   font-size: 36px;
@@ -173,6 +183,7 @@
   font-size: 14px;
   line-height: 20px;
 }
+
 /* Testimonial */
 
 /* Banner */
@@ -203,9 +214,6 @@
   margin-top: 5%;
 }
 /* Banner */
-
-/* Footer */
-/* Footer */
 
 /* FAQ */
 .faq {
@@ -265,9 +273,15 @@
 
 .footer-2 {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   line-height: 20px;
+  padding-left: 20px;
+}
+
+.footer-2 a {
+  text-decoration: none;
+  color: black;
 }
 
 .footer-3 {
@@ -290,6 +304,25 @@
   /* Hero */
   .hero {
     height: 657px;
+  }
+
+  .navbar-nav {
+    margin-left: 0;
+  }
+
+  .navbar .btn-success {
+    left: 0;
+    top: 26%;
+  }
+
+  .offcanvas {
+    max-width: 50%;
+    align-items: flex-start;
+    font-weight: 600;
+  }
+
+  .offcanvas-header {
+    font-weight: 700;
   }
 
   .judul-hero {
@@ -500,4 +533,42 @@
     top: 3509px;
   }
   /* FAQ */
+
+  /* Footer */
+  .footer-1 {
+    position: absolute;
+    top: 4100px;
+    width: 268px;
+    left: 6%;
+  }
+
+  .footer-2 {
+    position: absolute;
+    width: 268px;
+    top: 4250px;
+    left: 4%;
+    font-weight: 600;
+  }
+
+  .footer-2 a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .footer-3 {
+    position: absolute;
+    width: 360px;
+    height: 68px;
+    left: 6%;
+    top: 4400px;
+  }
+
+  .footer-4 {
+    position: absolute;
+    width: 268px;
+    height: 150px;
+    left: 6%;
+    top: 4480px;
+  }
+  /* Footer */
 }

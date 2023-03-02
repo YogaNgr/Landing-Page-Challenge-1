@@ -47,19 +47,31 @@
           <button
             class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            href="#offcanvasExample"
+            aria-controls="navbarNav"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse mt-3"
-            id="navbarSupportedContent"
+            class="collapse navbar-collapse offcanvas offcanvas-end"
+            data-bs-scroll="true"
+            id="offcanvasWithBothOptions"
+            tabindex="-1"
+            id="navbarNav"
           >
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <div class="offcanvas-header w-100 align-items-center">
+              <h2 class="mb-0">BCR</h2>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link mx-2" href="#service">Our Service</a>
               </li>
@@ -439,11 +451,11 @@
             <p>binarcarrental@gmail.com</p>
             <p>081-233-334-808</p>
           </div>
-          <div class="col-3 ps-5 footer-2">
-            <p>Our Service</p>
-            <p>Why Us</p>
-            <p>Testimonial</p>
-            <p>FAQ</p>
+          <div class="col-3 footer-2">
+            <a href="#service"><p>Our Service</p></a>
+            <a href="#why-us"><p>Why Us</p></a>
+            <a href="#testimonial"><p>Testimonial</p></a>
+            <a href="#faq"><p>FAQ</p></a>
           </div>
           <div class="col-3 footer-3">
             <p>Connect with us</p>
@@ -484,6 +496,7 @@
         stagePadding: 430,
         loop: true,
         margin: 10,
+        dots: false,
         nav: true,
         navText: [
           "<img src='assets/icon/prev_button.png'>",
