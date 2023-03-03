@@ -9,6 +9,11 @@
   background-color: #f1f3ff;
 }
 
+.offcanvas-header {
+  position: absolute;
+  top: 10px;
+}
+
 .logo {
   width: 100px;
   height: 34px;
@@ -16,13 +21,21 @@
 }
 
 .navbar-nav {
-  margin-left: 50%;
+  margin-left: 45%;
+}
+
+.nav-item {
+  font-weight: 600;
+}
+
+.navbar-collapse {
+  margin-top: 5px;
 }
 
 .navbar .btn-success {
   position: absolute;
   left: 83%;
-  top: 13%;
+  top: 20%;
 }
 
 .judul-hero {
@@ -84,12 +97,14 @@
   margin-left: 30px;
 }
 
-.list-service .nav-item {
-  list-style-image: url(/assets/icon/checklist.png);
-  font-weight: 300;
-  font-size: 14px;
-  margin-left: 30px;
+.list-service {
+  margin-left: 5%;
 }
+
+.img-check {
+  margin-right: 10px;
+}
+
 /* Service */
 
 /* Why Us */
@@ -147,6 +162,7 @@
 .profile-desc {
   padding-right: 30px;
   margin-top: 10px;
+  font-size: 14px;
 }
 
 .item {
@@ -204,10 +220,12 @@
 }
 
 .banner-desc {
+  width: 50%;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
+  margin-left: 25%;
 }
 
 .banner .btn-success {
@@ -273,7 +291,7 @@
 
 .footer-2 {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   padding-left: 20px;
@@ -306,13 +324,18 @@
     height: 657px;
   }
 
+  .offcanvas-header .btn-close {
+    margin-right: 5%;
+  }
+
   .navbar-nav {
-    margin-left: 0;
+    margin-left: 8px;
+    margin-top: 60px;
   }
 
   .navbar .btn-success {
-    left: 0;
-    top: 30%;
+    left: 8px;
+    top: 25%;
   }
 
   .offcanvas {
@@ -384,6 +407,7 @@
   .list-service {
     width: 360px;
     margin-top: 30px;
+    margin-left: 0;
   }
 
   .list-service .nav-item {
@@ -500,6 +524,8 @@
   }
 
   .banner-desc {
+    margin-left: 0;
+    width: 100%;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -539,27 +565,28 @@
     position: absolute;
     top: 4100px;
     width: 268px;
-    left: 6%;
+    left: 0;
   }
 
   .footer-2 {
     position: absolute;
     width: 268px;
     top: 4250px;
-    left: 4%;
+    left: -2%;
     font-weight: 600;
   }
 
   .footer-2 a {
     text-decoration: none;
     color: black;
+    font-weight: 400;
   }
 
   .footer-3 {
     position: absolute;
     width: 360px;
     height: 68px;
-    left: 6%;
+    left: 0;
     top: 4400px;
   }
 
@@ -567,7 +594,7 @@
     position: absolute;
     width: 268px;
     height: 150px;
-    left: 6%;
+    left: 0;
     top: 4480px;
   }
   /* Footer */
